@@ -1,15 +1,33 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: #2fb2e0;
+  --color-primary-light: #90e7ed;
+  --color-primary-dark: #5494b3;
+  --color-secondary: #f3ffe0;
+  --color-accent: #ff534e;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", arial, sans-serif;
-  --font-secondary: "Source Code Pro", menlo, consolas, monospace;
+  --font-primary: "Nunito", "Arial Rounded MT Bold", "Helvetica Rounded", arial, sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+ul,
+ol,
+dl,
+blockquote,
+cite,
+a,
+p {
+  font-family: var(--font-secondary);
 }
