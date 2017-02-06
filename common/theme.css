@@ -2,12 +2,12 @@
   --color-primary: goldenrod;
   --color-primary-light: gold;
   --color-secondary: lightcoral;
-  --color-accent:  greenyellow;
+  --color-accent: greenyellow;
   --color-neutral-beige: #e2e2e2;
   --color-whatever: peachpuff;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: "Alegreya Sans", "Trebuchet MS", arial, sans-serif;
+  --font-secondary: "Source Code Pro", menlo, consolas, monospace;
 }
 
 html {
