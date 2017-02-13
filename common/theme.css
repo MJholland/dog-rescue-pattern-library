@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 h1,
@@ -23,17 +23,16 @@ legend {
   font-family: var(--font-secondary);
 }
 
-ul,
-li,
-ol,
-dl,
-dt,
-dd,
-blockquote,
-cite,
-caption,
-q,
-a,
-p {
-  font-family: var(--font-primary);
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+mark {
+  color: var(--color-accent);
+  background-color: var(--color-secondary);
+}
+
+ul {
+  list-style-type: circle;
 }

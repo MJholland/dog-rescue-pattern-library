@@ -1,0 +1,18 @@
+.btn {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary);
+  border-radius: 8px;
+  border-color: var(--color-primary-dark);
+}
+
+.btn-light {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
+  border-color: var(--color-secondary);
+}
+
+.btn-em {
+  background-color: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+}
