@@ -18,15 +18,20 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+legend {
   font-family: var(--font-primary);
 }
 
 ul,
+li,
 ol,
 dl,
+dt,
+dd,
 blockquote,
 cite,
+q,
 a,
 p {
   font-family: var(--font-secondary);
