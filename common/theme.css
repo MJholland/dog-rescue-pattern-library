@@ -5,12 +5,12 @@
   --color-secondary: #f3ffe0;
   --color-accent: #ff534e;
 
-  --font-primary: "Nunito", "Arial Rounded MT Bold", "Helvetica Rounded", arial, sans-serif;
-  --font-secondary: "Open Sans", sans-serif;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Nunito", "Arial Rounded MT Bold", "Helvetica Rounded", arial, sans-serif;
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h1,
@@ -20,7 +20,7 @@ h4,
 h5,
 h6,
 legend {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 ul,
@@ -31,8 +31,9 @@ dt,
 dd,
 blockquote,
 cite,
+caption,
 q,
 a,
 p {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
