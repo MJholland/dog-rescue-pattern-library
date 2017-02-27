@@ -1,0 +1,11 @@
+.card {
+  background-color: var(--color-primary-dark);
+}
+
+.card > a {
+  color: #fff;
+}
+
+.card > h2 {
+  color: #fff;
+}
