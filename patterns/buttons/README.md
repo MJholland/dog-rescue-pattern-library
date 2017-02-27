@@ -5,3 +5,6 @@ There are three button styles, each for a different purpose.
 - The em button is to be used when you want the user to notice a certain feature, not to be over used, maybe once or twice on a page, no more.
 
 They scale in size when hovered so the user knows which is being highlighted.
+
+- [ ] add easing to animation
+- [ ] apply animation principles to the button
