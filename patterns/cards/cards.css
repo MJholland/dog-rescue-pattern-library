@@ -6,6 +6,8 @@
   color: #fff;
 }
 
-.card > h2 {
+.card > a,
+h2,
+p {
   color: #fff;
 }
