@@ -15,6 +15,8 @@
 </head>
 <body>
 
+  <h2 class="form-title">WHAT IS MY PURPOSE</h2>
+
   <form class="max-length island" method="post" novalidate>
 
     <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
@@ -25,7 +27,7 @@
     </div>
 
     <div class="push-1-2">
-      <label for="name">Name</label>
+      <label class="tera" for="name">Name</label>
       <input id="name" required aria-describedby="name-error">
       <p class="error-message milli island-1-4 push-0" id="name-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
@@ -34,24 +36,60 @@
     </div>
 
     <div class="push-1-2">
-      <label for="email">Email</label>
+      <label class="tera" for="email">Email</label>
       <input type="email" id="email" required aria-describedby="email-error">
       <p class="error-message milli island-1-4 push-0" id="name-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide properly formatted email eddress</span>
       </p>
+    </div>
 
     <div class="push-1-2">
-      <label for="url">Website<em class="flag-optional milli normal"> (optional)</em></label>
+      <label class="tera" for="url">Website<em class="flag-optional milli normal"> (optional)</em></label>
       <input type="url" id="url">
     </div>
 
-    <div class="push-1-2 pad-t-1-2">
+    <div class="push-1-2">
+      <label class="tera" for="comment">Comments</label>
+      <textarea id="comment"></textarea>
+    </div>
+
+    <div class="push-1-2">
+      <label class="tera" for="choices">Select one</label>
+      <select id="choices">
+        <option>1</option>
+        <option>Two</option>
+        <option>NIGHTMARESSSSSSSS</option>
+        <option>all lower case and 1 number</option>
+      </select>
+    </div>
+
+    <div class="push-1-2">
+      <fieldset class="push-1-2">
+        <legend class="tera normal">Pick an option</legend>
+        <ul class="form-list">
+          <li class="push-1-2">
+            <input type="radio" id="caps" name="stuff">
+            <label for="caps">THIS ONE</label>
+          </li>
+          <li class="push-1-2">
+            <input type="radio" id="lower" name="stuff">
+            <label for="lower">thisone?</label>
+          </li>
+          <li class="push-1-2">
+            <input type="radio" id="numbers" name="stuff">
+            <label for="numbers">1292043883444</label>
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+
+    <div class="push-1-2 pad-t-2">
       <input type="checkbox" id="agree" required aria-describedby="agree-error">
-      <label for="agree">I'm totally awesome</label>
+      <label for="agree">Sell your soul</label>
       <p class="error-message milli island-1-4 push-0" id="agree-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please agree that you're totally awesome</span>
+        <span class="icon-label">Please agree to sell your soul</span>
       </p>
 
     <div class="pad-t-1-2">

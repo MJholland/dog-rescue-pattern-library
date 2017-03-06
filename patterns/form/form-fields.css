@@ -2,6 +2,22 @@ body {
   background-color: #fff;
 }
 
+label {
+  font-family: var(--font-secondary);
+}
+
+legend {
+  font-family: var(--font-secondary);
+}
+
+.form-title {
+  color: var(--color-accent);
+}
+
+.form-list {
+  list-style-type: none;
+}
+
 .flag-optional {
   color: #999;
 }

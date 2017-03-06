@@ -22,6 +22,7 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#form">Form</a></li>
           </ul>
         </nav>
       </div>
@@ -486,6 +487,115 @@
     &lt;/ul>
   &lt;/a>
 &lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="form">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Form</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="form-form-fields">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/form-fields.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;h2 class="form-title"&gt;WHAT IS MY PURPOSE&lt;/h2>
+
+&lt;form class="max-length island" method="post" novalidate="">
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label class="tera" for="name">Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a name&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label class="tera" for="email">Email&lt;/label>
+    &lt;input type="email" id="email" required aria-describedby="email-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide properly formatted email eddress&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label class="tera" for="url">Website&lt;em class="flag-optional milli normal"> (optional)&lt;/em>&lt;/label>
+    &lt;input type="url" id="url">
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label class="tera" for="comment">Comments&lt;/label>
+    &lt;textarea id="comment">&lt;/textarea>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label class="tera" for="choices">Select one&lt;/label>
+    &lt;select id="choices">
+      &lt;option>1&lt;/option>
+      &lt;option>Two&lt;/option>
+      &lt;option>NIGHTMARESSSSSSSS&lt;/option>
+      &lt;option>all lower case and 1 number&lt;/option>
+    &lt;/select>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;fieldset class="push-1-2">
+      &lt;legend class="tera normal">Pick an option&lt;/legend>
+      &lt;ul class="form-list">
+        &lt;li class="push-1-2">
+          &lt;input type="radio" id="caps" name="stuff">
+          &lt;label for="caps">THIS ONE&lt;/label>
+        &lt;/li>
+        &lt;li class="push-1-2">
+          &lt;input type="radio" id="lower" name="stuff">
+          &lt;label for="lower">thisone?&lt;/label>
+        &lt;/li>
+        &lt;li class="push-1-2">
+          &lt;input type="radio" id="numbers" name="stuff">
+          &lt;label for="numbers">1292043883444&lt;/label>
+        &lt;/li>
+      &lt;/ul>
+    &lt;/fieldset>
+  &lt;/div>
+
+  &lt;div class="push-1-2 pad-t-2">
+    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+    &lt;label for="agree">Sell your soul&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please agree to sell your soul&lt;/span>
+    &lt;/p>
+
+    &lt;div class="pad-t-1-2">
+      &lt;button class="btn btn-em" type="submit">Send&lt;/button>
+    &lt;/div>
+
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>
