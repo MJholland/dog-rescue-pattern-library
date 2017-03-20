@@ -1,4 +1,1 @@
----
-banner: |
-  The banner is only used on the main page.
----
+The banner is only used on the main page.
