@@ -52,6 +52,7 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#footer">Footer</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#form">Form</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#navigation">Navigation</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#sections">Sections</a></li>
@@ -811,6 +812,24 @@
 
 </section>
 
+        <section class="pattern" id="footer">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Footer</h2>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
+  </div>
+
+
+  
+
+
+</section>
+
         <section class="pattern" id="form">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Form</h2>
@@ -1222,12 +1241,13 @@
         <section class="pattern" id="navigation">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Navigation</h2>
-      <nav class="pattern-nav">
-        <ol class="list-group-inline push-1-4">
-            <li><a href="#navigation-main-nav">Main nav</a></li>
-            <li><a href="#navigation-multipage-nav">Multipage nav</a></li>
-        </ol>
-      </nav>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/navigation/main-nav.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
   </div>
 
     <div class="pattern-desc milli island">
@@ -1238,16 +1258,6 @@
   
 
     <div class="pattern-details" id="navigation-main-nav">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Main nav</h3>
-            <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/navigation/main-nav.html" target="_blank" title="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#pop-out" /></svg>
-                </i>
-              </a>
-            </div>
-        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1309,11 +1319,28 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details" id="navigation-multipage-nav">
+
+</section>
+
+        <section class="pattern" id="sections">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Sections</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#sections-find-dog">Find dog</a></li>
+            <li><a href="#sections-main-page-cards">Main page cards</a></li>
+        </ol>
+      </nav>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="sections-find-dog">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Multipage nav</h3>
+          <h3 class="pattern-name tera push-1-8">Find dog</h3>
             <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/navigation/multipage-nav.html" target="_blank" title="Open pattern in a new tab">
+              <a class="pattern-pop" href="patterns/sections/find-dog.html" target="_blank" title="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#pop-out" /></svg>
                 </i>
@@ -1324,7 +1351,7 @@
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
           <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/navigation/multipage-nav.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+            <iframe src="patterns/sections/find-dog.html" scrolling="no" onload="resizeIframe(this)"></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1342,63 +1369,274 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;nav&gt;
-  &lt;ul class="list-group-inline">
+              <code><pre>&lt;section&gt;
 
-    &lt;li>
-      &lt;a href="" class="icon-link">
-        &lt;i class="icon i-16">
-            &lt;svg>&lt;use xlink:href="../../images/arrow-backward.svg"/>&lt;/svg>
-          &lt;/i>
-      &lt;/a>
-    &lt;/li>
+  &lt;div class="carousel">
+    &lt;input class="carousel-input" type="radio" name="cards" id="tab1-control">
+    &lt;input class="carousel-input" type="radio" name="cards" id="tab2-control">
+    &lt;input class="carousel-input" type="radio" name="cards" id="tab3-control">
+    &lt;input class="carousel-input" type="radio" name="cards" id="tab4-control">
 
-    &lt;li>
-      &lt;a href="">
-        &lt;p>1&lt;/p>
-      &lt;/a>
-    &lt;/li>
+    &lt;div class="carousel-inner relative">
+      &lt;div class="carousel-items">
 
-    &lt;li>
-      &lt;a href="">
-        &lt;p>2&lt;/p>
-      &lt;/a>
-    &lt;/li>
+        &lt;div class="grid carousel-item" id="tab1">
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Willow 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Corgi&lt;/li>
+                &lt;li>8 years old&lt;/li>
+                &lt;li>Female&lt;/li>
+                &lt;li>Fee: $250&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
 
-    &lt;li>
-      &lt;a class="icon-link">
-        &lt;i class="icon i-16">
-            &lt;svg>&lt;use xlink:href="../../images/arrow-forward.svg"/>&lt;/svg>
-          &lt;/i>
-      &lt;/a>
-    &lt;/li>
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Scotty 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Yorkie&lt;/li>
+                &lt;li>1 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $170&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
 
-  &lt;/ul>
-&lt;/nav>
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Fluffy 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Cerberus&lt;/li>
+                &lt;li>46 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $666&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Butters 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Kid&lt;/li>
+                &lt;li>8 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $2&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+        &lt;/div>
+
+
+        &lt;div class="grid carousel-item" id="tab2">
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Cujo 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>St. Bernard&lt;/li>
+                &lt;li>36 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $230&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">DOGE 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Shiba Inu&lt;/li>
+                &lt;li>3 years old&lt;/li>
+                &lt;li>Female&lt;/li>
+                &lt;li>Fee: $340&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Toto 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Brindle Terrier&lt;/li>
+                &lt;li>35 years old&lt;/li>
+                &lt;li>Female&lt;/li>
+                &lt;li>Fee: $90&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Scooby Doo 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Great Dane&lt;/li>
+                &lt;li>20 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $420&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+        &lt;/div>
+
+
+        &lt;div class="grid carousel-item" id="tab3">
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Pongo 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Dalmation&lt;/li>
+                &lt;li>10 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $101&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Perdita 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Dalmation&lt;/li>
+                &lt;li>9 years old&lt;/li>
+                &lt;li>Female&lt;/li>
+                &lt;li>Fee: $101&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Cooper 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Hound&lt;/li>
+                &lt;li>1 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $210&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Air Bud 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Golden Retriever&lt;/li>
+                &lt;li>6 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $174&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+        &lt;/div>
+
+
+        &lt;div class="grid carousel-item" id="tab4">
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Wishbone 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Jack Russell Terrier&lt;/li>
+                &lt;li>8 years old&lt;/li>
+                &lt;li>Female&lt;/li>
+                &lt;li>Fee: $250&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Marley 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Labrador Retriever&lt;/li>
+                &lt;li>2 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $180&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Beethoven 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>St Bernard&lt;/li>
+                &lt;li>10 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $390&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] card island-1-2 carousel-item">
+            &lt;a href="">
+              &lt;img src="http://placehold.it/200x150" class="push-1-2 img-flex" alt="">
+              &lt;h2 class="push-0">Hachiko 8201&lt;/h2>
+              &lt;ul class="list-group push-1-4">
+                &lt;li>Akita&lt;/li>
+                &lt;li>14 years old&lt;/li>
+                &lt;li>Male&lt;/li>
+                &lt;li>Fee: $340&lt;/li>
+              &lt;/ul>
+            &lt;/a>
+          &lt;/div>
+        &lt;/div>
+
+        &lt;ul class="carousel-controls">
+          &lt;li>
+            &lt;label class="carousel-btn icon i-18 ir" for="tab2-control">Page 1&lt;/label>
+          &lt;/li>
+          &lt;li>
+            &lt;label class="carousel-btn icon i-18 ir" for="tab3-control">Page 2&lt;/label>
+          &lt;/li>
+          &lt;li>
+            &lt;label class="carousel-btn icon i-18 ir" for="tab4-control">Page 3&lt;/label>
+          &lt;/li>
+          &lt;li>
+            &lt;label class="carousel-btn icon i-18 ir" for="tab1-control">Page 4&lt;/label>
+          &lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/section>
 </pre></code>
             </div>
           </div>
       </div>
     </div>
-
-</section>
-
-        <section class="pattern" id="sections">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
-    <h2 class="pattern-name peta push-1-4">Sections</h2>
-        <div class="gutter absolute pin-cr">
-          <a class="pattern-pop" href="patterns/sections/main-page-cards.html" target="_blank" title="Open pattern in a new tab">
-            <i class="icon i-18">
-              <svg><use xlink:href="#pop-out" /></svg>
-            </i>
-          </a>
-        </div>
-  </div>
-
-
-  
-
     <div class="pattern-details" id="sections-main-page-cards">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Main page cards</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/sections/main-page-cards.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Turns into a clickable carousel at small screens for better usability, once the media query hits 38em (tablet) the grid takes over. This is used only for content that isn&#39;t linked to another page and when content needs to use space better on small screens.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">

@@ -1,5 +1,6 @@
 .card {
   background-color: var(--color-primary-dark);
+  transition: all 190ms linear;
 }
 
 .card > a {
@@ -10,4 +11,8 @@
 h2,
 p {
   color: #fff;
+}
+
+.card:hover {
+  transform: scale(.95);
 }
