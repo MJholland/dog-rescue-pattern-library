@@ -9,18 +9,6 @@
   display: block;
 }
 
-/*.carousel-btn {
-  border: 4px solid #fff;
-  border-radius: 50%;
-}
-
-#story1-control:checked ~ .carousel-inner [for="story1-control"],
-#story2-control:checked ~ .carousel-inner [for="story2-control"],
-#story3-control:checked ~ .carousel-inner [for="story3-control"],
-#story4-control:checked ~ .carousel-inner [for="story4-control"] {
-  background-color: #000;
-}*/
-
 @media only screen and (min-width: 38em) {
   .carousel-items > div {
     display: block;
