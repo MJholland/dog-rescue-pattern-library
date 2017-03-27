@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--color-primary-light);
+}
+
+.nav {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+  .divider {
+    border-right: 2px solid var(--color-accent);
+  }
+
+  .nav {
+    display: block;
+    text-align: center;
+  }
+}

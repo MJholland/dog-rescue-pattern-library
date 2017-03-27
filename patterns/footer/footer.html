@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Main nav</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link href="footer.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="../form/form-fields.css" rel="stylesheet">
+</head>
+<body>
+
+  <footer class="footer grid island">
+    <div class="divider unit [ xs-1 s-1 m-1-2 l-1-3 ] push-2">
+      <h2 class="form-title push-0">Contact us</h2>
+
+      <form class="max-length island-1-2 gutter" method="post" novalidate>
+
+        <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+          <h3 class="push-0">
+            <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <span class="icon-label">There are items that require your attention</span>
+          </h3>
+        </div>
+
+        <div class="push-1-2">
+          <label class="tera" for="footer-name">Name</label>
+          <input id="footer-name" required aria-describedby="name-error">
+          <p class="error-message milli island-1-4 push-0" id="name-error">
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <span class="icon-label">Please provide a name</span>
+          </p>
+        </div>
+
+        <div class="push-1-2">
+          <label class="tera" for="footer-email">Email</label>
+          <input type="email" id="footer-email" required aria-describedby="email-error">
+          <p class="error-message milli island-1-4 push-0" id="name-error">
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <span class="icon-label">Please provide properly formatted email eddress</span>
+          </p>
+        </div>
+
+        <div class="push-1-2">
+          <label class="tera" for="footer-comment">Comments</label>
+          <textarea id="footer-comment"></textarea>
+        </div>
+
+        <div class="pad-t-1-2">
+          <button class="btn btn-em" type="submit">Send</button>
+        </div>
+
+      </form>
+
+      <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1-2 l-2-3 ]">
+      <nav class="push-0" id="footer">
+
+        <ul class="nav list-group-inline text-center push">
+          <li class="island-1-8">
+            <a href="#home" class="btn text-center">
+              <p class="push-0">Home</p>
+            </a>
+          </li>
+          <li class="island-1-8">
+            <a href="#find-a-dog" class="btn btn-em text-center">
+              <p class="push-0">Find a Dog</p>
+            </a>
+          </li>
+          <li class="island-1-8">
+            <a href="#adoption" class="btn text-center">
+              <p class="push-0">Adoption</p>
+            </a>
+          </li>
+        </ul>
+
+        <div>
+          <p class="gutter">If you would like to volunteer or donate physical items please contact us.</p>
+          <p class="gutter">Monetary donations are accepted through <a href="canadahelps.org">canadahelps.org<a/></p>
+
+          <div class="text-center push-2">
+            <a href="#" class="btn btn-em text-center">
+              <p class="push-0">Donate</p>
+            </a>
+          </div>
+
+          <p class="text-center">© Loyal Rescue 2017</p>
+        </div>
+
+      </nav>
+    </div>
+  </footer>
+
+</body>
