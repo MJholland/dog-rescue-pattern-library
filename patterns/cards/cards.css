@@ -1,15 +1,6 @@
 .card {
   background-color: var(--color-primary-dark);
   transition: all 190ms linear;
-}
-
-.card > a {
-  color: #fff;
-}
-
-.card > a,
-h2,
-p {
   color: #fff;
 }
 

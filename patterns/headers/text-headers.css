@@ -5,3 +5,7 @@
 .page-title {
   color: var(--color-accent);
 }
+
+.body-copy {
+  color: var(--color-primary-dark);
+}
