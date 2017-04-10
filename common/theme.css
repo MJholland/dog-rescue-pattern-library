@@ -13,6 +13,10 @@ html {
   font-family: var(--font-primary);
 }
 
+body {
+  background-color: var(--color-primary-light);
+}
+
 h1,
 h2,
 h3,
