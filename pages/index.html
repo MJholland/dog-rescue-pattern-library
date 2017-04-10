@@ -19,13 +19,13 @@
   <link href="../patterns/headers/text-headers.css" rel="stylesheet">
   <link href="../patterns/navigation/main-nav.css" rel="stylesheet">
   <link href="../patterns/sections/find-dog-carousel.css" rel="stylesheet">
-  <link href="../patterns/sections/main-page-cardscarousel.css" rel="stylesheet">
+  <link href="../patterns/sections/main-page-card-carousel.css" rel="stylesheet">
 
 </head>
 <body>
 
   <header class="masthead text-center island-1-2">
-    <a href="#home" class="icon-link" id="logo">
+    <a href="index.html" class="icon-link" id="logo">
       <i class="icon i-64 inline-block push push-r-1-2">
         <img src="../images/logo-64.svg" alt="Loyal rescue logo">
       </i>
@@ -35,13 +35,13 @@
     <nav class="main-nav push-0" id="nav">
       <ul class="main-nav list-group-inline text-center push-0">
         <li class="island-1-8">
-          <a href="#home" class="btn text-center">
+          <a href="index.html" class="btn text-center">
             <p class="push-0">Home</p>
           </a>
         </li>
 
         <li class="island-1-8">
-          <a href="#find-a-dog" class="btn btn-em text-center">
+          <a href="find-a-dog.html" class="btn btn-em text-center">
             <p class="push-0">Find a Dog</p>
           </a>
         </li>
@@ -58,7 +58,7 @@
   <section class="banner">
     <div class="banner-content relative center-text">
       <img class="banner-text island push absolute" src="../images/banner-text.svg" alt="Expand your family and save a live">
-      <a class="btn btn-em push">Find a Dog</a>
+      <a href="find-a-dog.html" class="btn btn-em push">Find a Dog</a>
     </div>
   </section>
 
@@ -80,6 +80,66 @@
       <p class="push-1-2 body-copy">Once these steps are complete and successful, you will be notified that you have been approved to adopt.</p>
     </div>
   </section>
+
+  <section>
+
+    <div class="gutter wrapper">
+      <h2 class="yotta pad-t push-1-2 page-title">Happy Tails</h2>
+    </div>
+
+    <div class="carousel">
+      <input class="carousel-input" type="radio" name="adopted" id="story1-control">
+      <input class="carousel-input" type="radio" name="adopted" id="story2-control" checked>
+      <input class="carousel-input" type="radio" name="adopted" id="story3-control">
+      <input class="carousel-input" type="radio" name="adopted" id="story4-control">
+
+      <div class="carousel-inner relative">
+        <div class="carousel-items grid">
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] carousel-item card island-1-2" id="story1">
+            <label class="carousel-btn" for="story2-control">
+              <div class="embed embed-3by2 push-1-2">
+                <img src="http://placehold.it/200x150" class="embed-item img-flex" alt="">
+              </div>
+              <h2 class="push-0">Willow 8201 Adopted</h2>
+              <p>Adoption story. Puppy kitty ipsum dolor sit good dog stripes biscuit feeder run groom catch aquatic scratch speak puppy lol catz tabby ball. Nest tabby running water pet gate chow park roll over play dead window furry crate slobbery house train park kisses fur. Polydactyl dragging pet bird seed toys walk wag tail kitty tail dog house.</p>
+            </label>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] carousel-item card island-1-2" id="story2">
+            <label class="carousel-btn" for="story3-control">
+              <div class="embed embed-3by2 push-1-2">
+                <img src="http://placehold.it/200x150" class="embed-item img-flex" alt="">
+              </div>
+              <h2 class="push-0">Lord Barkquar 871 Adopted</h2>
+              <p>Adoption story. Puppy kitty ipsum dolor sit good dog stripes biscuit feeder run groom catch aquatic scratch speak puppy lol catz tabby ball. Nest tabby running water pet gate chow park roll over play dead window furry crate slobbery house train park kisses fur. Polydactyl dragging pet bird seed toys walk wag tail kitty tail dog house.</p>
+            </label>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] carousel-item card island-1-2" id="story3">
+            <label class="carousel-btn" for="story4-control">
+              <div class="embed embed-3by2 push-1-2">
+                <img src="http://placehold.it/200x150" class="embed-item img-flex" alt="">
+              </div>
+              <h2 class="push-0">Snuffles 332 Adopted</h2>
+              <p>Adoption story. Puppy kitty ipsum dolor sit good dog stripes biscuit feeder run groom catch aquatic scratch speak puppy lol catz tabby ball. Nest tabby running water pet gate chow park roll over play dead window furry crate slobbery house train park kisses fur. Polydactyl dragging pet bird seed toys walk wag tail kitty tail dog house.</p>
+            </label>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] carousel-item card island-1-2" id="story4">
+            <label class="carousel-btn" for="story1-control">
+              <div class="embed embed-3by2 push-1-2">
+                <img src="http://placehold.it/200x150" class="embed-item img-flex" alt="">
+              </div>
+              <h2 class="push-0">Really Old Yeller 1 Adopted</h2>
+              <p>Adoption story. Puppy kitty ipsum dolor sit good dog stripes biscuit feeder run groom catch aquatic scratch speak puppy lol catz tabby ball. Nest tabby running water pet gate chow park roll over play dead window furry crate slobbery house train park kisses fur. Polydactyl dragging pet bird seed toys walk wag tail kitty tail dog house.</p>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <section>
 
